@@ -27,6 +27,9 @@ RUN pip install jupyter_contrib-nbextensions RISE \
   && jupyter contrib nbextension install --system \
   && jupyter nbextension enable hide_input/main
 
+# Install jupyter offlinenotebook
+RUN pip install jupyter-offlinenotebook 
+
 # Cleanup
 RUN rm ijava-kernel.zip
 

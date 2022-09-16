@@ -3,7 +3,7 @@ ijava-jupyter-stack is a Jupyter Docker Stack image that's including the IJAVA K
 
 # Launch on binder
 Try this Jupyter Notebook online with this link. No installation is needed.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jbindinga/java-notebook/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jansoe/java-notebook/master)
 
 # Docker Hub
 * Docker Hub [hub.docker.com/r/jbindinga/java-notebook](https://hub.docker.com/r/jbindinga/java-notebook)

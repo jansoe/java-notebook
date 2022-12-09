@@ -35,6 +35,11 @@ RUN pip install jupyter-offlinenotebook
 # Cleanup
 RUN rm ijava-kernel.zip
 
+# 
+RUN apt-get update -y \
+  && apt-get install -y gcc \
+  && rm -rf /var/lib/apt/lists/*
+
 # Add README.md
 ADD "README.md" $HOME
 
